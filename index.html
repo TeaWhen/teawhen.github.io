@@ -1,2 +1,13 @@
-<h1>TeaWhen's HomePage</h1>
-It works.
+---
+layout: home
+title: Team.TeaWhen
+---
+
+<div id="home">
+  <h3>Members</h3>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a> profile updated on {{ post.date | date_to_string }}</li>
+    {% endfor %}
+  </ul>
+</div>

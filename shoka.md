@@ -13,3 +13,5 @@ app:
 * 检索书目
 * 查看单册状态及索书号
 * 收藏喜爱的书目
+
+您可以在 GitHub 上<a href="https://github.com/TeaWhen/shoka">获取 Shoka 的源代码</a>。

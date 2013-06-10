@@ -3,3 +3,4 @@ pygments: true
 permalink: /:title.html
 
 support_email: team.teawhen@gmail.com
+github_url: https://github.com/TeaWhen
